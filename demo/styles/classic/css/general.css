@@ -1,0 +1,103 @@
+/**
+ * @author      Pierre-Henry Soria
+ * @email       ph7software@gmail.com
+ * @link        http://github.com/pH-7
+ * @copyright   Copyright Pierre-Henry Soria, All Rights Reserved.
+ * @license     CC BY - http://creativecommons.org/licenses/by/3.0/
+ */
+
+ body {
+  font-family: HelveticaNeue,Helvetica,Arial,Verdana,sans-serif;
+  font-size: 12px;
+  color: #333;
+  background-image: url('../img/bg.png');
+  margin-top: 20px;
+}
+
+h1, h2, h3 {
+  text-transform: capitalize;
+}
+
+#container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+header {
+  text-shadow: 0 .9em #ccc,0 0 8px rgba(255,255,255,.6);
+}
+
+article {
+  margin-top: 35px;
+  line-height: 1.8em;
+}
+
+footer {
+  font-size: 11px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding: 1px 10px;
+  clear: both;
+  border-top: 1px dotted #999;
+}
+
+.m_pic {
+  opacity: 1;
+  margin: 5px 0 15px;
+  transition: opacity .35s ease-in-out;
+  -webkit-transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .35s ease-in-out;
+  -o-transition: opacity .35s ease-in-out;
+  -ms-transition: opacity .35s ease-in-out;
+  -khtml-transition: opacity .35s ease-in-out;
+}
+
+.m_pic:hover {
+  opacity: 0.5;
+}
+
+.thumb {
+  display: block;
+  padding: 4px;
+  margin-right: 12px;
+  line-height: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.thumb:hover {
+  border-color: #08c;
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.img_left {
+  float: left;
+}
+
+.img_right {
+  float: right;
+}
+
+.img_left, .img_right {
+  margin: 20px;
+}
+
+/** Links **/
+
+a {
+  color: #08c;
+  outline-style: none;
+  cursor: pointer;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  text-shadow: 0 0 5px #fff,0 0 8px rgba(255,255,255,.6);
+}
